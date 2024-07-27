@@ -1,6 +1,6 @@
 {
   "vaultName": "Kettenotter",
-  "lastExport": 1722073773219,
+  "lastExport": 1722074129081,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title is-focused",
   "useCustomHeadContent": false,
@@ -17,8 +17,6 @@
     "Gamedev/Plugin Docs/Logic Driver Extension/Overview.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/Overview Board.canvas",
     "Gamedev/Plugin Docs/Logic Driver Extension/Todo.md",
-    "lib/media/ue_compascnodes.png",
-    "lib/media/lde_readablitycomparison.png",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/minisearch.js",
@@ -26,7 +24,9 @@
     "lib/styles/obsidian.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/media/ue_compascnodes.png",
+    "lib/media/lde_readablitycomparison.png"
   ],
   "mainDependencies": [
     "lib/html/file-tree.html",
@@ -70,49 +70,49 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 14221,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 157312,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 41147,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1722073773219,
+      "modifiedTime": 1722074129081,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -133,18 +133,6 @@
       "modifiedTime": 1722073773219,
       "sourceSize": 1733,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/overview-board.html",
-      "dependencies": []
-    },
-    "Gamedev/Plugin Docs/Attachments/LDE_ReadablityComparison.png": {
-      "modifiedTime": 1722073773219,
-      "sourceSize": 210435,
-      "exportedPath": "gamedev/plugin-docs/attachments/lde_readablitycomparison.png",
-      "dependencies": []
-    },
-    "Gamedev/Plugin Docs/Attachments/UE_CompASCNodes.png": {
-      "modifiedTime": 1722073773219,
-      "sourceSize": 151638,
-      "exportedPath": "gamedev/plugin-docs/attachments/ue_compascnodes.png",
       "dependencies": []
     },
     "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/GAS Node Board.canvas": {
@@ -172,6 +160,18 @@
       "modifiedTime": 1722073773219,
       "sourceSize": 210435,
       "exportedPath": "lib/media/lde_readablitycomparison.png",
+      "dependencies": []
+    },
+    "Gamedev/Plugin Docs/Attachments/LDE_ReadablityComparison.png": {
+      "modifiedTime": 1722074129081,
+      "sourceSize": 210435,
+      "exportedPath": "gamedev/plugin-docs/attachments/lde_readablitycomparison.png",
+      "dependencies": []
+    },
+    "Gamedev/Plugin Docs/Attachments/UE_CompASCNodes.png": {
+      "modifiedTime": 1722074129081,
+      "sourceSize": 151638,
+      "exportedPath": "gamedev/plugin-docs/attachments/ue_compascnodes.png",
       "dependencies": []
     }
   }
