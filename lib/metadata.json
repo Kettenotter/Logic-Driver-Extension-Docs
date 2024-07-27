@@ -1,6 +1,6 @@
 {
   "vaultName": "Kettenotter",
-  "lastExport": 1722075559710,
+  "lastExport": 1722079221024,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title is-focused",
   "useCustomHeadContent": false,
@@ -8,15 +8,17 @@
   "files": [
     "Gamedev/Plugin Docs/Logic Driver/How to access and cast the context.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/GAS Node Board.canvas",
-    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/State Nodes Overview.md",
-    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/Transition Nodes Overview.md",
+    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/GAS States.md",
+    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/GAS Transitions.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/Utility Module/Generic Notes Overview.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/Utility Module/Utility Board.canvas",
     "Gamedev/Plugin Docs/Logic Driver Extension/Overview.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/Overview Board.canvas",
+    "Gamedev/Plugin Docs/Logic Driver Extension/Performance.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/Todo.md",
-    "lib/media/ue_compascnodes.png",
     "lib/media/lde_readablitycomparison.png",
+    "lib/media/ue_contextcomps.png",
+    "lib/media/ue_contextgas.png",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/minisearch.js",
@@ -24,7 +26,8 @@
     "lib/styles/obsidian.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/media/ue_compascnodes.png"
   ],
   "mainDependencies": [
     "lib/html/file-tree.html",
@@ -38,79 +41,67 @@
   ],
   "fileInfo": {
     "Gamedev/Plugin Docs/Logic Driver/How to access and cast the context.md": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 1096,
       "exportedPath": "gamedev/plugin-docs/logic-driver/how-to-access-and-cast-the-context.html",
       "dependencies": []
     },
-    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/State Nodes Overview.md": {
-      "modifiedTime": 1722075559710,
-      "sourceSize": 203,
-      "exportedPath": "gamedev/plugin-docs/logic-driver-extension/gas-module/state-nodes-overview.html",
-      "dependencies": []
-    },
-    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/Transition Nodes Overview.md": {
-      "modifiedTime": 1722075559710,
-      "sourceSize": 0,
-      "exportedPath": "gamedev/plugin-docs/logic-driver-extension/gas-module/transition-nodes-overview.html",
-      "dependencies": []
-    },
     "Gamedev/Plugin Docs/Logic Driver Extension/Overview.md": {
-      "modifiedTime": 1722075559710,
-      "sourceSize": 1426,
+      "modifiedTime": 1722079221024,
+      "sourceSize": 1416,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/overview.html",
       "dependencies": []
     },
     "Gamedev/Plugin Docs/Logic Driver Extension/Todo.md": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 187,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/todo.html",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1722075559710,
-      "sourceSize": 12767,
+      "modifiedTime": 1722079221024,
+      "sourceSize": 13091,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 157312,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 41147,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -122,31 +113,31 @@
       "dependencies": []
     },
     "Gamedev/Plugin Docs/Logic Driver Extension/Utility Module/Generic Notes Overview.md": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 0,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/utility-module/generic-notes-overview.html",
       "dependencies": []
     },
     "Gamedev/Plugin Docs/Logic Driver Extension/Overview Board.canvas": {
-      "modifiedTime": 1722075559710,
-      "sourceSize": 1733,
+      "modifiedTime": 1722079221024,
+      "sourceSize": 1103,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/overview-board.html",
       "dependencies": []
     },
     "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/GAS Node Board.canvas": {
-      "modifiedTime": 1722075559710,
-      "sourceSize": 586,
+      "modifiedTime": 1722079221024,
+      "sourceSize": 1014,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/gas-module/gas-node-board.html",
       "dependencies": []
     },
     "Gamedev/Plugin Docs/Logic Driver Extension/Utility Module/Utility Board.canvas": {
-      "modifiedTime": 1722075559710,
-      "sourceSize": 1391,
+      "modifiedTime": 1722079221024,
+      "sourceSize": 1530,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/utility-module/utility-board.html",
       "dependencies": [
-        "lib/media/ue_compascnodes.png",
         "lib/media/lde_readablitycomparison.png",
-        "lib/media/lde_readablitycomparison.png"
+        "lib/media/ue_contextcomps.png",
+        "lib/media/ue_contextgas.png"
       ]
     },
     "lib/media/ue_compascnodes.png": {
@@ -156,7 +147,7 @@
       "dependencies": []
     },
     "lib/media/lde_readablitycomparison.png": {
-      "modifiedTime": 1722075559710,
+      "modifiedTime": 1722079221024,
       "sourceSize": 210435,
       "exportedPath": "lib/media/lde_readablitycomparison.png",
       "dependencies": []
@@ -201,6 +192,36 @@
       "modifiedTime": 1722075109602,
       "sourceSize": 1260,
       "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/GAS States.md": {
+      "modifiedTime": 1722079221024,
+      "sourceSize": 539,
+      "exportedPath": "gamedev/plugin-docs/logic-driver-extension/gas-module/gas-states.html",
+      "dependencies": []
+    },
+    "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/GAS Transitions.md": {
+      "modifiedTime": 1722079221024,
+      "sourceSize": 0,
+      "exportedPath": "gamedev/plugin-docs/logic-driver-extension/gas-module/gas-transitions.html",
+      "dependencies": []
+    },
+    "Gamedev/Plugin Docs/Logic Driver Extension/Performance.md": {
+      "modifiedTime": 1722079221024,
+      "sourceSize": 639,
+      "exportedPath": "gamedev/plugin-docs/logic-driver-extension/performance.html",
+      "dependencies": []
+    },
+    "lib/media/ue_contextcomps.png": {
+      "modifiedTime": 1722079221024,
+      "sourceSize": 70413,
+      "exportedPath": "lib/media/ue_contextcomps.png",
+      "dependencies": []
+    },
+    "lib/media/ue_contextgas.png": {
+      "modifiedTime": 1722079221024,
+      "sourceSize": 64171,
+      "exportedPath": "lib/media/ue_contextgas.png",
       "dependencies": []
     }
   }
