@@ -1,6 +1,6 @@
 {
   "vaultName": "Kettenotter",
-  "lastExport": 1722071393676,
+  "lastExport": 1722071638372,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title is-focused",
   "useCustomHeadContent": false,
@@ -10,8 +10,8 @@
     "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/State Nodes Overview.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/GAS Module/Transition Nodes Overview.md",
     "Gamedev/Plugin Docs/Logic Driver Extension/Utility Module/Generic Notes Overview.md",
-    "Gamedev/Plugin Docs/Logic Driver Extension/Board.canvas",
     "Gamedev/Plugin Docs/Logic Driver Extension/Overview.md",
+    "Gamedev/Plugin Docs/Logic Driver Extension/Overview Board.canvas",
     "Gamedev/Plugin Docs/Logic Driver Extension/Todo.md",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
@@ -64,49 +64,49 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1722071393676,
-      "sourceSize": 9874,
+      "modifiedTime": 1722071638372,
+      "sourceSize": 10911,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1722071393676,
+      "modifiedTime": 1722071638372,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1722071393676,
+      "modifiedTime": 1722071638372,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1722071393676,
+      "modifiedTime": 1722071638372,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1722071393676,
+      "modifiedTime": 1722071638372,
       "sourceSize": 157312,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1722071393676,
+      "modifiedTime": 1722071638372,
       "sourceSize": 41147,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722071393676,
+      "modifiedTime": 1722071638372,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1722071393676,
+      "modifiedTime": 1722071638372,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -117,16 +117,16 @@
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     },
-    "Gamedev/Plugin Docs/Logic Driver Extension/Board.canvas": {
-      "modifiedTime": 1722071393676,
-      "sourceSize": 1514,
-      "exportedPath": "gamedev/plugin-docs/logic-driver-extension/board.html",
-      "dependencies": []
-    },
     "Gamedev/Plugin Docs/Logic Driver Extension/Utility Module/Generic Notes Overview.md": {
       "modifiedTime": 1722071292051,
       "sourceSize": 0,
       "exportedPath": "gamedev/plugin-docs/logic-driver-extension/utility-module/generic-notes-overview.html",
+      "dependencies": []
+    },
+    "Gamedev/Plugin Docs/Logic Driver Extension/Overview Board.canvas": {
+      "modifiedTime": 1722071638372,
+      "sourceSize": 1990,
+      "exportedPath": "gamedev/plugin-docs/logic-driver-extension/overview-board.html",
       "dependencies": []
     }
   }
