@@ -1,6 +1,6 @@
 {
   "vaultName": "Kettenotter",
-  "lastExport": 1722070543029,
+  "lastExport": 1722070622085,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title",
   "useCustomHeadContent": false,
@@ -64,55 +64,55 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1722070543029,
-      "sourceSize": 11297,
+      "modifiedTime": 1722070622085,
+      "sourceSize": 8434,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 157312,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 41147,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1722070543029,
+      "modifiedTime": 1722070622085,
       "sourceSize": 650,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
